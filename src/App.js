@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+// ! IMPORT REACT-ROUTER
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// ! IMPORT HOME
+import Home from "./Home";
+// ! IMPORT CSS
+import "./style.css";
 
-function App() {
+import Navv from "./Navv";
+import Footer from "./Footer";
+const App = () => {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      {loading ? (
+        <div className="preloaderr">
+          <img
+                src="../imgs/logo.png"
+                alt=""
+                className="imglogo"
+              />
+          <span class="loader"></span>{" "}
+        </div>
+      ) : (
+        <>
+        <Navv/>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+          <Footer/>
+        </>
+      )}
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

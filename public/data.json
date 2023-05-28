@@ -1,0 +1,57 @@
+{
+  "properttes": [
+    {
+      "img": "./imgs/properties/properties1/properties-420-1.jpg",
+      "price": "230,000",
+      "title": "Apartment with Subunits",
+      "text": "Modern home near the ocean shore...",
+      "agente": "./imgs/agents/agents-600-1.jpg",
+      "NameAgente": "Matteo Augustine"
+    },
+    {
+      "img": "./imgs/properties/properties1/properties-420-4.jpg",
+
+      "price": "1150",
+      "title": "Apartment with Subunits",
+      "text": "Modern home near the ocean shore...",
+      "agente": "./imgs/agents/agents-600-2.jpg",
+      "NameAgente": "Roob Howard"
+    },
+    {
+      "img": "./imgs/properties/properties1/properties-420-6.jpg",
+
+      "price": "200,000",
+      "title": "Apartment with Subunits",
+      "text": "Modern home near the ocean shore...",
+      "agente": "./imgs/agents/agents-600-3.jpg",
+      "NameAgente": "Nathan Rowland"
+    },
+    {
+      "img": "./imgs/properties/properties1/properties-420-7.jpg",
+
+      "price": "150,000",
+      "title": "Apartment with Subunits",
+      "text": "Modern home near the ocean shore...",
+      "agente": "./imgs/agents/agents-600-1.jpg",
+      "NameAgente": "Matteo Augustine"
+    },
+    {
+      "img": "./imgs/properties/properties1/properties-420-3.jpg",
+
+      "price": "5550",
+      "title": "Apartment with Subunits",
+      "text": "Modern home near the ocean shore...",
+      "agente": "./imgs/agents/agents-600-2.jpg",
+      "NameAgente": "Roob Howard"
+    },
+    {
+      "img": "./imgs/properties/properties1/properties-420-5.jpg",
+
+      "price": "100,000",
+      "title": "Apartment with Subunits",
+      "text": "Modern home near the ocean shore...",
+      "agente": "./imgs/agents/agents-600-3.jpg",
+      "NameAgente": "Nathan Rowland"
+    }
+  ]
+}
